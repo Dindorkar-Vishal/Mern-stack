@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>foem 4</title>
+    </head>
+    <body>
+        <h1>This is first form</h1>
+        <br>
+
+        <form action="thankyou.html" method="post" enctype="application/x-www-form-urlencoded" target="_self" >
+            <fieldset>
+                <legend>Personal Information</legend>
+           Username <input type="text" required /><br><br>
+
+           Passward <input type="password" required /><br><br>
+           Gender<br>
+
+            <input type="radio" name="gender" value="male" />MALE
+            <br>
+            <input type="radio" name="gender" value="female" />FEMALE
+            <br>
+            <input type="radio" name="gender" value="other" />OTHER
+            <br>
+            <input type="text"  value="Enter your full name" readonly />
+            <br>
+            <input type="checkbox" name="iagree" value="I agree with Tearms and Condition" />
+            I Agree with terms and Condition
+            <br>
+            <input type="color" name="color" />
+            
+            <input type="file"  name="fileupload" required />
+
+
+           <br>
+           <input type="search" name="q" readonly />
+           <br>
+           <input type="submit"  value="SUMBIT" />
+           <input type="reset" value="reset"  />
+           <button formaction="thankyou.html" >Click Here To Sumbit</button>
+         
+        </fieldset>
+        </form>
+            
+    </body>
+</html>
